@@ -22,7 +22,10 @@ const config = {
         dark: {
           1: "#1C1F2E",
           2: "#161925",
-          foreground: "hsl(var(--dark-foreground))",
+        },
+        blue: {
+          1: "#0E78F9",
+          2: "#1E2A47",
         },
         light: {
           DEFAULT: "hsl(var(--light))",
