@@ -1,7 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import { Metadata } from "next";
 import React from "react";
 
+export const metadata: Metadata = {
+  title: "Operant Video Conferencing App",
+  description: "Open-source video conferencing app with Stream and Clerk.",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="relative">
