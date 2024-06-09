@@ -38,6 +38,7 @@ export default function RootLayout({
           },
         }}
       >
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <body className={`${inter.className} bg-dark-2 `}>
           {children} <Toaster />
         </body>

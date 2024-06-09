@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 const Rootlayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       <StreamVideoProvider>{children}</StreamVideoProvider>
     </main>
   );
