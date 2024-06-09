@@ -32,7 +32,7 @@ const MobileNav = () => {
         <SheetContent side={"left"} className="border-none bg-dark-1">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/icons/logo.svg"
+              src="/icons/ovc1.png"
               alt="Logo"
               width={32}
               height={32}
@@ -56,7 +56,7 @@ const MobileNav = () => {
                         className={cn(
                           "flex gap-4 items-center p-4 rounded-lg w-full max-w-60",
                           {
-                            "bg-blue-1": isActive,
+                            "bg-green-2": isActive,
                           }
                         )}
                       >
